@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Denmark Galima - Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="https://static.wikia.nocookie.net/detroit-become-human/images/c/cd/LED_-_Detroit.png/revision/latest?cb=20200205080336">
+
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/originals/1d/26/c5/1d26c5b022c071fb8f1e3ae2f0f65ba9.gif');
+            text-align: center;
+            font-family: 'Papyrus', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, p, a {
+            font-family: 'Papyrus', sans-serif;
+            text-align: center;
+            color: black;
+        }
+
+        header {
+            padding: 10px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: papayawhip;
+            font-size: 20px;
+            border: 1px solid #fff;
+            background-color: gray;
+            padding: 5px 10px;
+            transition: all 0.3s ease-out;
+            position: relative;
+        }
+
+        a::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease-out;
+            border-radius: 50%;
+            z-index: -1;
+            transform: scale(0);
+        }
+
+        a:hover::after {
+            transform: scale(3);
+            opacity: 0;
+        }
+
+        .download_button {
+            margin-top: 20px;
+        }
+
+        .download_button a {
+            color: #000;
+            font-size: 20px;
+            text-decoration: none;
+            border: 1px solid #000;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="denmark.html"><span>Home</span></a></li>
+            <li><a href="Aboutme.html"><span>About Me</span></a></li>
+            <li><a href="contact.html"><span>Contact</span></a></li>
+            <li><a href="education.html"><span>Education</span></a></li>
+            <li><a href="photographycollection.html"><span>My Photography Collection</span></a></li>
+            <li><a href="blogs.html"><span>Blogs</span></a></li>
+            <li><a href="accomplishments.html"><span>Accomplishments</span></a></li>
+        </ul>
+    </nav>
+</header>
+<header>
+    <marquee direction="right" behavior="alternate">
+        <h1>&#128075; ABOUT ME! &#128075;</h1>
+    </marquee>
+</header>
+
+<hr>
+<img src="https://scontent.fcrk2-1.fna.fbcdn.net/v/t39.30808-6/408224038_6626931837433963_995248450156715369_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=U2JN25GNgEIAX9Bx64l&_nc_ht=scontent.fcrk2-1.fna&oh=00_AfBQMHrvCO8YRW5DMfi1O-U92-aiGsdlxtC9JXsPl4vtFg&oe=657598C0" alt="Graduation picture" width="auto" height="600">
+
+<section>
+	<div class="text">
+    <p><font size="+4"><p><p style="font-family:'papyrus'">Hello! My name is  </p></font>
+
+    <p><font size="+5"><p><p style="font-family:'papyrus'">Denmark Galima, </p></font>
+      
+    <p><font size="+2"><p>Im a student of University of Cordilleras and my course here is BSIT. 
+      Im a first year student living in Tuding alone. As a student, I possess a versatile skill set that includes troubleshooting,
+      with a deep understanding of both software and hardware setups. </p></font>
+      
+    
+    <p><font size="+2"><p>I stand out as a creative and innovative designer with a strong aesthetic sense. 
+      I excel in translating ideas into visually compelling concepts across various design domains, 
+      constantly evolving to stay up-to-date with design trends and technologies. My passion and dedication drive me to exceed expectations, 
+      creating functional and impactful designs. My portfolio, including this website project, reflects my creative journey, 
+      and I'm deeply grateful for the support I've received. Your interest in my work is appreciated, 
+      and I eagerly anticipate future collaborations.</p></font>
+</section>
+
+
+<br>
+<p><font size="+2"><p><b style="font-size: 30px;">Hobbies:</b><br>I enjoy playing video games, sketching, and watching television shows.<br>Video games provide relaxation and entertainment, while sketching allows me to express creativity.<br>Watching television shows provides inspiration and prompts reflection.<br><b style="font-size: 30px;">Interests:</b><br>I enjoy traveling and partying with friends. Traveling allows me to learn about different cultures and people,<br>while partying with friends provides a sense of connection and belonging to me. <br><b style="font-size: 30px;">Goal:</b><br>My goals in life are to travel the world, learn about different cultures,<br>and develop new skills.I also want to be open to new experiences and meet new people.<br><b style="font-size: 30px;">Aspiration:</b><br>I aspire to become a pioneer in the field of games and revolutionize<br>the way people interact with and experience games. <br></font></p>
+<br>
+
+<h1  style="text-align: center; color: black; font-size: 35px;"><b>Places I've traveled to:</b></h1>
+<p><font size="+2"><p>
+  Baguio (Hometown)//La Union//Manila//Barcelona, Spain//Madrid, Spain//Boracay</p></font>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>My Travel Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+      #map {
+      height: 600px;
+      }
+    </style>
+    </head>
+    <body>
+    
+    <div id="map"></div>
+    
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+    var map = L.map('map').setView([16.4023, 120.5960], 6); // Centered at Baguio
+    
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    
+    // Marker for Baguio - Hometown
+    L.marker([16.4023, 120.5960]).addTo(map)
+      .bindPopup("<b>Baguio</b><br />Hometown").openPopup();
+    
+    // Marker for La Union
+    L.marker([16.6077, 120.3127]).addTo(map)
+      .bindPopup("<b>La Union</b><br />Traveled here").openPopup();
+    
+    // Marker for Manila
+    L.marker([14.5995, 120.9842]).addTo(map)
+      .bindPopup("<b>Manila</b><br />Traveled here").openPopup();
+    
+    // Marker for Barcelona, Spain
+    L.marker([41.3851, 2.1734]).addTo(map)
+      .bindPopup("<b>Barcelona, Spain</b><br />Traveled here").openPopup();
+    
+    // Marker for Madrid, Spain
+    L.marker([40.4168, -3.7038]).addTo(map)
+      .bindPopup("<b>Madrid, Spain</b><br />Traveled here").openPopup();
+    
+    // Marker for Boracay
+    L.marker([11.9674, 121.9247]).addTo(map)
+      .bindPopup("<b>Boracay</b><br />Traveled here").openPopup();
+    
+    </script>
+
+<p><font size="+3"><p>Thank you for exploring my website!</p></font>
+<p><font size="+2"><p>Cheers! &#129346;</p></font>
+<p><font size="+2"><p>Denmark. &#128155;</p></font>
+</div>
+</div>
+</section>
+<section>
+
+<section class="download_button">
+    <a href="files/resume.pdf" title="This will download my Resume" download>Resume: Denmark Galima</a>
+</section>
+</div>
+<br>
+<small><sub style="color:black; font-size: 25px;">©2023 OnlinePortfolio.<br>All rights reserved</sub></small>
+</html>
+</html>
